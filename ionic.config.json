@@ -1,0 +1,7 @@
+{
+  "name": "ios-behavior-subject-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
