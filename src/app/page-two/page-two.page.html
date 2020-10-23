@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Page Two</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    If the Behavior Subject is false, we hope we're on this page
+  </ion-item>
+  <ion-item>
+    <ion-label>Latest Behavior Subject value is: {{pageEven}}</ion-label>
+  </ion-item>
+
+  <ion-button (click)="changePageState()">Change Behavior Subject to {{!pageEven}}</ion-button>
+</ion-content>
